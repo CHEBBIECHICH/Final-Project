@@ -1,0 +1,97 @@
+
+/* Global styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Form container */
+form {
+    background-color: #e6f2ff; /* Very light blue form background */
+    border: 2px solid #0066cc; /* Darker blue border */
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+legend {
+    font-size: 1.5em;
+    color: #004080; /* Dark blue for title */
+    text-align: center;
+}
+.main {
+    display: flex;
+    gap: 20px; /* Adjust spacing between elements */
+    align-items: center;
+}
+
+.row1 {
+    display: flex;
+    align-items: center;
+}
+
+/* Input fields and labels */
+label {
+    color: #004080; /* Dark blue for labels */
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #80bfff; /* Medium blue border */
+    border-radius: 5px;
+    background-color: #ffffff; /* White background for input */
+}
+
+/* Radio buttons */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Checkbox and terms label */
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+label[for="terms"] {
+    font-size: 0.9em;
+    color: #004080;
+}
+
+/* Submit button */
+button[type="submit"] {
+    background-color: #ff8000; /* Contrasting orange button */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: #cc6600; /* Darker shade of orange on hover */
+}
+
+/* Row styling */
+.main {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+
