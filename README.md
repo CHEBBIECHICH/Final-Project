@@ -1,2 +1,2 @@
 # Final-Project
-This is a teleedicine website project.
+This is a telemedicine website project.
